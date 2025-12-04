@@ -1,0 +1,22 @@
+# Movies and release years - print movies released before 2010
+movies = {
+    "The Matrix": 1999,
+    "Inception": 2010,
+    "The Godfather": 1972,
+    "Avatar": 2009,
+    "Interstellar": 2014
+}
+print("Movies released before 2010:")
+items = list(movies.items())
+i = 0
+while i < len(items):
+    movie, year = items[i]
+    if year < 2010:
+        print(f"{movie} ({year})")
+
+Output:
+
+Movies released before 2010:
+The Matrix (1999)
+The Godfather (1972)
+Avatar (2009)
