@@ -1,0 +1,20 @@
+# Fruits and colors - print each fruit with its color
+fruits = {
+    "Apple": "Red",
+    "Banana": "Yellow",
+    "Grape": "Purple",
+    "Orange": "Orange",
+    "Kiwi": "Green"
+}
+print("Fruits and their colors:")
+for fruit, color in fruits.items():
+    print(f"{fruit} is {color}.")
+
+Output:
+
+Fruits and their colors:
+Apple is Red.
+Banana is Yellow.
+Grape is Purple.
+Orange is Orange.
+Kiwi is Green.
