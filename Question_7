@@ -1,0 +1,22 @@
+# Usernames and passwords - print usernames with passwords longer than 8 characters
+users = {
+    "john_doe": "pass123",
+    "admin": "superSecure2024",
+    "guest": "guest",
+    "mary_jane": "myP@ssw0rd",
+    "test_user": "test12"
+}
+print("Usernames with passwords longer than 8 characters:")
+items = list(users.items())
+i = 0
+while i < len(items):
+    username, password = items[i]
+    if len(password) > 8:
+        print(username)
+    i += 1
+
+Output:
+
+Usernames with passwords longer than 8 characters:
+admin
+mary_jane
