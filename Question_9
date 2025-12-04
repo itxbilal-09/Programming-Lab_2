@@ -1,0 +1,25 @@
+# Animals and lifespans - find animal with shortest lifespan
+animals = {
+    "Dog": 13,
+    "Cat": 15,
+    "Hamster": 3,
+    "Parrot": 60,
+    "Goldfish": 10
+}
+print("Animal with shortest lifespan:")
+items = list(animals.items())
+min_lifespan = float('inf')
+min_animal = ""
+i = 0
+while i < len(items):
+    animal, lifespan = items[i]
+    if lifespan < min_lifespan:
+        min_lifespan = lifespan
+        min_animal = animal
+    i += 1
+print(f"{min_animal}: {min_lifespan} years")
+
+Output:
+
+Animal with shortest lifespan:
+Hamster: 3 years
