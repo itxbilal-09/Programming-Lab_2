@@ -1,0 +1,21 @@
+# Player names and scores - find highest score
+players = {
+    "Alex": 1250,
+    "Brian": 2100,
+    "Chris": 1890,
+    "Diana": 2350,
+    "Eve": 1670
+}
+print("Highest score:")
+max_score = 0
+top_player = ""
+for player, score in players.items():
+    if score > max_score:
+        max_score = score
+        top_player = player
+print(f"{top_player}: {max_score} points")
+
+Output:
+
+Highest score:
+Diana: 2350 points
