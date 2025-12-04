@@ -1,0 +1,18 @@
+# Employee IDs and salaries - calculate total salary
+salaries = {
+    "EMP001": 45000,
+    "EMP002": 52000,
+    "EMP003": 38000,
+    "EMP004": 61000,
+    "EMP005": 47000
+}
+print("Total salary calculation:")
+total = 0
+for emp_id, salary in salaries.items():
+    total += salary
+print(f"Total salary: ${total}")
+
+Output:
+
+Total salary calculation:
+Total salary: $243000
