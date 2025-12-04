@@ -1,0 +1,23 @@
+# Input
+countries = {
+    "France": "Paris",
+    "Japan": "Tokyo",
+    "Brazil": "Brasília",
+    "Egypt": "Cairo",
+    "Australia": "Canberra"
+}
+print("Countries:")
+key = list(countries.keys())
+i = 0
+while i < len(key):
+    print(key[i])
+    i += 1
+
+Output:
+
+Countries:
+France
+Japan
+Brazil
+Egypt
+Australia
