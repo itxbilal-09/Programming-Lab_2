@@ -1,0 +1,19 @@
+# Students and grades - print students who got grade A
+grades = {
+    "Tom": "A",
+    "Jerry": "B",
+    "Mike": "A",
+    "Anna": "C",
+    "Sophie": "A"
+}
+print("Students who got grade A:")
+for student, grade in grades.items():
+    if grade == "A":
+        print(student)
+
+Output:
+
+Students who got grade A:
+Tom
+Mike
+Sophie
