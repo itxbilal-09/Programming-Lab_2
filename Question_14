@@ -1,0 +1,19 @@
+# Countries and populations - count countries with populations above 50 million
+populations = {
+    "India": 1400,
+    "Canada": 38,
+    "USA": 331,
+    "Australia": 26,
+    "Brazil": 215
+}
+print("Countries with populations above 50 million:")
+count = 0
+for country, population in populations.items():
+    if population > 50:
+        count += 1
+print(f"Number of countries: {count}")
+
+Output:
+
+Countries with populations above 50 million:
+Number of countries: 3
