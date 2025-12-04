@@ -1,4 +1,4 @@
-# Input
+# Dictionary of countries and capitals - print each country
 countries = {
     "France": "Paris",
     "Japan": "Tokyo",
