@@ -1,0 +1,19 @@
+# Products and stock levels - print items needing restocking
+stock = {
+    "Shirts": 5,
+    "Pants": 15,
+    "Socks": 3,
+    "Jackets": 20,
+    "Hats": 8
+}
+print("Items that need restocking (stock < 10):")
+for product, level in stock.items():
+    if level < 10:
+        print(f"{product}: {level} units")
+
+Output:
+
+Items that need restocking (stock < 10):
+Shirts: 5 units
+Socks: 3 units
+Hats: 8 units
