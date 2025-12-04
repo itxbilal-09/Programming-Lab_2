@@ -1,0 +1,18 @@
+# Mobile phones and battery capacities - print phones with battery over 4500 mAh
+phones = {
+    "Samsung Galaxy S23": 3900,
+    "iPhone 15 Pro": 3274,
+    "OnePlus 11": 5000,
+    "Xiaomi 13": 4500,
+    "Google Pixel 8": 4575
+}
+print("Phones with battery over 4500 mAh:")
+for phone, battery in phones.items():
+    if battery > 4500:
+        print(f"{phone}: {battery} mAh")
+
+Output:
+
+Phones with battery over 4500 mAh:
+OnePlus 11: 5000 mAh
+Google Pixel 8: 4575 mAh
