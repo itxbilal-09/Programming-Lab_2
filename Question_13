@@ -1,0 +1,19 @@
+# Laptop models and RAM - print models with RAM 16 GB or higher
+laptops = {
+    "Dell XPS 13": 8,
+    "MacBook Pro": 16,
+    "HP Pavilion": 12,
+    "Lenovo ThinkPad": 32,
+    "Asus ZenBook": 16
+}
+print("Laptop models with RAM 16 GB or higher:")
+for model, ram in laptops.items():
+    if ram >= 16:
+        print(f"{model}: {ram} GB")
+
+Output:
+
+Laptop models with RAM 16 GB or higher:
+MacBook Pro: 16 GB
+Lenovo ThinkPad: 32 GB
+Asus ZenBook: 16 GB
