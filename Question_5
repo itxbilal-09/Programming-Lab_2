@@ -1,0 +1,23 @@
+# Book titles and page numbers - print books with more than 200 pages
+books = {
+    "The Great Gatsby": 180,
+    "Moby Dick": 585,
+    "1984": 328,
+    "The Hobbit": 310,
+    "Animal Farm": 112
+}
+print("Books with more than 200 pages:")
+items = list(books.items())
+i = 0
+while i < len(items):
+    title, pages = items[i]
+    if pages > 200:
+        print(f"{title}: {pages} pages")
+    i += 1
+
+Output:
+
+Books with more than 200 pages:
+Moby Dick: 585 pages
+1984: 328 pages
+The Hobbit: 310 pages
