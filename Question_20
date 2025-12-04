@@ -1,0 +1,18 @@
+# Subject names and chapters - print total chapters
+subjects = {
+    "Mathematics": 12,
+    "Physics": 15,
+    "Chemistry": 10,
+    "Biology": 14,
+    "English": 8
+}
+print("Total number of chapters:")
+total_chapters = 0
+for subject, chapters in subjects.items():
+    total_chapters += chapters
+print(f"Total chapters across all subjects: {total_chapters}")
+
+Output:
+
+Total number of chapters:
+Total chapters across all subjects: 59
