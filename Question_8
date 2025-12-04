@@ -6,7 +6,7 @@ cities = {
     "New York": 25,
     "Sydney": 33
 }
-print("8. Cities with temperatures above 30:")
+print("Cities with temperatures above 30:")
 items = list(cities.items())
 i = 0
 while i < len(items):
