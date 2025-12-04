@@ -1,0 +1,23 @@
+# Employee names and ages - count employees older than 40
+employees = {
+    "John": 45,
+    "Sarah": 32,
+    "Michael": 51,
+    "Lisa": 38,
+    "Robert": 42
+}
+print("Employees older than 40:")
+items = list(employees.items())
+count = 0
+i = 0
+while i < len(items):
+    name, age = items[i]
+    if age > 40:
+        count += 1
+    i += 1
+print(f"Number of employees older than 40: {count}")
+
+Output:
+
+Employees older than 40:
+Number of employees older than 40: 3
