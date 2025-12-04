@@ -1,0 +1,25 @@
+# Products and prices - print product with highest price
+products = {
+    "Laptop": 899,
+    "Phone": 699,
+    "Tablet": 450,
+    "Headphones": 150,
+    "Monitor": 320
+}
+print("Product with highest price:")
+items = list(products.items())
+max_price = 0
+max_product = ""
+i = 0
+while i < len(items):
+    product, price = items[i]
+    if price > max_price:
+        max_price = price
+        max_product = product
+    i += 1
+print(f"{max_product}: ${max_price}")
+
+Output:
+
+Product with highest price:
+Laptop: $899
