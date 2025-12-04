@@ -1,0 +1,19 @@
+# Car brands and countries - print brands made in Japan
+cars = {
+    "Toyota": "Japan",
+    "Ford": "USA",
+    "Honda": "Japan",
+    "BMW": "Germany",
+    "Nissan": "Japan"
+}
+print("Car brands made in Japan:")
+for brand, country in cars.items():
+    if country == "Japan":
+        print(brand)
+
+Output:
+
+Car brands made in Japan:
+Toyota
+Honda
+Nissan
